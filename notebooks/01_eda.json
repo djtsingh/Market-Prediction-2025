@@ -1,0 +1,25 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {"id": "md1", "language": "markdown"},
+      "source": [
+        "# EDA - Hull Tactical (starter)",
+        "\n",
+        "This notebook loads the train.csv using Polars and shows initial stats."
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {"id": "code1", "language": "python"},
+      "source": [
+        "import polars as pl",
+        "from src.hull_tactical.data import load_train, dataset_overview",
+        "df = load_train(n_rows=10000)",
+        "print(dataset_overview(df))",
+        "# Basic return distribution",
+        "print(df.select(pl.col('forward_returns').describe()))"
+      ]
+    }
+  ]
+}
