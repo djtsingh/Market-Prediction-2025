@@ -9,5 +9,3 @@ Structure (starter):
 - experiments/         # experiment outputs and logs
 - configs/             # configuration files
 - scripts/             # helper scripts (env setup, run)
-
-See docs in this README and use the provided setup scripts to create a virtual environment.
