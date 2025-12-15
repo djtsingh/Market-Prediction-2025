@@ -166,3 +166,8 @@ cython_debug/
 
 data/
 experiments/
+
+dataset_models/
+dataset_kaggle/
+dataset/
+logs/

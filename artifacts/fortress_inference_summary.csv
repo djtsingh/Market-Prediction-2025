@@ -1,0 +1,8 @@
+Metric,Value
+Observations,252.0
+Inference time (s),12.489007
+Throughput (rows/s),20.18
+Allocation mean,1.020713
+Allocation std,0.273998
+Allocation min,0.485824
+Allocation max,1.699547

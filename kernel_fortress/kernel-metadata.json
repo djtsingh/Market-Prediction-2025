@@ -1,0 +1,29 @@
+{
+  "id": "djt5ingh/fortress-inference-kernel",
+  "title": "Fortress inference kernel",
+  "code_file": "fortress_inference_prod.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": false,
+    "environment_variables": {
+    "ARTIFACT_DIR": "/kaggle/input/djt5ingh/warmup-and-models",
+    "PERSIST_DIR": "/kaggle/working/persist",
+    "WARMUP_PATH": "/kaggle/input/hull-tactical-warmup-features-precomputed/warmup_features.parquet",
+    "MODEL_ARTIFACTS_DIR": "/kaggle/input/djt5ingh/fortress-model-artifacts",
+    "WARMUP_ROWS": "252",
+    "RUN_KAGGLE_API": "true",
+    "COLLECT_DIAGNOSTICS": "true",
+    "MAX_BATCH_SECONDS": "30",
+    "RETURN_PRED_RET": "false",
+    "ENFORCE_CHRONO": "true"
+  },
+  "dataset_sources": [
+    "djt5ingh/warmup-and-models",
+    "djt5ingh/hull-tactical-warmup-features-precomputed",
+    "djt5ingh/fortress-model-artifacts"
+  ],
+  "competition_sources": [],
+  "kernel_sources": []
+}
