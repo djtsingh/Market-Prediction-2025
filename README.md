@@ -28,9 +28,3 @@ This repository contains the code, experiments and helper tools used to compete 
 - View submissions for this competition (replace the slug if different):
 
 - Competition submissions Link: https://www.kaggle.com/code/djt5ingh/fortress-inference-kernel
-
- 
-
-**Reproducibility & notes**
-- Use `scripts/check_kaggle_json.py` to verify your Kaggle CLI credentials (`~/.kaggle/kaggle.json`).
-- Use `scripts/package_warmup_dataset.py` to prepare a Kaggle dataset containing warmup features (useful for attaching to a Kaggle notebook input).
